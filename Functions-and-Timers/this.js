@@ -1,14 +1,11 @@
 const student = {
-    name: "shradha",
-    age: 23,
-    eng: 95,
-    math: 93,
-    phy: 97,
-
+    name: "Faizan",
+    age: 21,
+    eng: 75,
+    math: 85,
+    phy: 25,
     getAvg() {
-        let avg = (this.eng + this.math + this.phy) / 3;
-        console.log(avg);
+        let avg = (this.math + this.eng + this.phy) / 3;
+        console.log(`${this.name} got`);
     }
-};
-
-student.getAvg();
+}
