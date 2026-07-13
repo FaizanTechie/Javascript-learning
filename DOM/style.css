@@ -1,4 +1,4 @@
-*{
+/* *{
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -19,4 +19,18 @@
 .images>img{
     height: 25rem;
     margin: 5px;
+} */
+ .red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+.btnStyle {
+    background-color: blue;
+    color: white;
+}
+.heading{
+    color: purple;
 }
