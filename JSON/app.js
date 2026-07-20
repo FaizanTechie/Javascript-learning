@@ -56,7 +56,7 @@
 ///////////////////////////////////////////
 // using awiat function.
 
-let url = "https://catfact.ninja/fact";
+// let url = "https://catfact.ninja/fact";
 
 // async function getFact() {
 //   try {  
