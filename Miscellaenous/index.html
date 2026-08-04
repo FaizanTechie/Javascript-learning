@@ -1,12 +1,23 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>Contributions not working</h1>
-    <p>What wiil be the issue</p>
-</body>
+  </head>
+  <body>
+    <form method="get" action="http://localhost:8080/register">
+      <h2>Get request Form</h2>
+      <input placeholder="Enter Username" name="user" type="text" />
+      <input placeholder="Enter Password" name="password" type="password" />
+      <button>Submit</button>
+    </form>
+
+    <form method="post" action="http://localhost:8080/register">
+      <h2>Post request from</h2>
+      <input placeholder="Enter Username" name="user" type="text" />
+      <input placeholder="Enter Password" name="password" type="password" />
+      <button>Submit</button>
+    </form>
+  </body>
 </html>
